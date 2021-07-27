@@ -13,7 +13,7 @@ import { IconType } from 'react-icons/lib';
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   name: string
-  icon: IconType
+  icon?: IconType
 } 
 
 const Input = ({ name, icon , ...rest }: InputProps) => {

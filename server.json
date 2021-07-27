@@ -10,9 +10,9 @@
     },
     {
       "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
+      "name": "A la Camarón 2",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 3 mares.",
+      "price": "20.10",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
@@ -23,6 +23,14 @@
       "description": "osihoeigheohgowih",
       "available": true,
       "id": 4
+    },
+    {
+      "image": "https://papocomcris.com.br/wp-content/uploads/2018/09/caldo-de-mocoto-receitas-de-inverno.jpg",
+      "name": "Mocoto",
+      "price": "26.30",
+      "description": "weoewjtpojweptweptj",
+      "available": true,
+      "id": 5
     }
   ]
 }
