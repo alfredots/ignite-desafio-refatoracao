@@ -3,15 +3,22 @@ import {
   useRef,
   useState,
   useCallback,
+  InputHTMLAttributes,
 } from 'react';
 
 import { useField } from '@unform/core';
 
 import { Container } from './styles';
+import { IconType } from 'react-icons/lib';
 
-const Input = ({ name, icon: Icon, ...rest }) => {
-  const inputRef = useRef(null);
+type InputProps = InputHTMLAttributes<HTMLInputElement> & {
+  name: string
+  icon: IconType
+} 
 
+const Input = ({ name, icon , ...rest }: InputProps) => {
+  const inputRef = useRef<HTMLInputElement>(null);
+  const Icon = icon
   const [isFocused, setIsFocused] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
 
